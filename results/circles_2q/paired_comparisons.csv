@@ -1,0 +1,6 @@
+comparator,mean_delta,std_delta,quantum_wins,ties,classical_wins,note
+SVM-RBF,-0.00013175230566534837,0.0162403088859594,1,13,1,"Descriptive paired folds; repeated CV folds are dependent, no independent-fold p-value."
+SVM-linear,0.42490118577075103,0.10029198053380023,15,0,0,"Descriptive paired folds; repeated CV folds are dependent, no independent-fold p-value."
+LogReg,0.5412384716732542,0.11692941045234857,15,0,0,"Descriptive paired folds; repeated CV folds are dependent, no independent-fold p-value."
+RandomForest,0.021080368906455867,0.040125012734759054,5,9,1,"Descriptive paired folds; repeated CV folds are dependent, no independent-fold p-value."
+MLP,0.014624505928853752,0.03820453392370378,4,10,1,"Descriptive paired folds; repeated CV folds are dependent, no independent-fold p-value."

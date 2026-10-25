@@ -1,0 +1,19 @@
+{
+  "dataset": "breast_cancer",
+  "n_features": 4,
+  "best_quantum": {
+    "fmap": "Z",
+    "reps": 3,
+    "bandwidth": 0.25,
+    "cv_acc": 0.9669301712779973,
+    "cv_std": 0.038730248043868626,
+    "cv_f1": 0.9683039086517345,
+    "offdiag_mean": 0.6620270597843183,
+    "offdiag_var": 0.03896856722954183,
+    "alignment": 0.5439933707381975,
+    "geo_diff": 3.329383579179582,
+    "complexity": 12156.151791485547
+  },
+  "qtest": 0.9791666666666666,
+  "rbf_gamma": 0.1
+}

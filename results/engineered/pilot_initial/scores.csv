@@ -1,0 +1,11 @@
+seed,n_train,n_test,model,test_acc,inner_cv_acc,best_params,positive_train,positive_test,selected_raw_baseline
+101,128,256,Projected quantum kernel,0.8984375,0.9217423403469915,"{""C"": 100.0, ""gamma"": 0.1}",71,135,Random forest
+101,128,256,RBF SVM,0.5234375,0.5784422296050203,"{""model__C"": 1.0, ""model__gamma"": 1.0}",71,135,Random forest
+101,128,256,MLP,0.49609375,0.5158730158730159,"{""model__alpha"": 0.01, ""model__hidden_layer_sizes"": [64, 32]}",71,135,Random forest
+101,128,256,Random forest,0.4609375,0.5861941675895165,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",71,135,Random forest
+101,128,256,Gradient boosting,0.453125,0.5544481358434847,"{""model__l2_regularization"": 0.0, ""model__max_leaf_nodes"": 15, ""model__min_samples_leaf"": 5}",71,135,Random forest
+101,128,256,Fourier+pairwise SVM,0.52734375,0.5546327057954965,"{""model__C"": 0.1, ""model__gamma"": 0.0001}",71,135,Random forest
+101,128,256,Classical same-feature RBF,0.8984375,0.9217423403469915,"{""C"": 100.0, ""gamma"": 0.1}",71,135,Random forest
+101,128,256,Classical same-feature logistic,0.92578125,0.9217423403469915,"{""C"": 100.0}",71,135,Random forest
+101,128,256,Nonentangling projection RBF,0.53125,0.5701365817644888,"{""C"": 10.0, ""gamma"": 1.0}",71,135,Random forest
+101,128,256,Classical raw-input selection,0.4609375,0.5861941675895165,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",71,135,Random forest

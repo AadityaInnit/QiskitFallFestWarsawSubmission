@@ -1,0 +1,14 @@
+{
+  "unit_tests_passed": 14,
+  "artifact_checks": [
+    "01_benchmark.ipynb: all code cells executed without errors",
+    "02_diagnostics.ipynb: all code cells executed without errors",
+    "03_noise.ipynb: all code cells executed without errors",
+    "04_engineered.ipynb: all code cells executed without errors",
+    "breast_cancer_4q: original corrected benchmark aggregates verified",
+    "circles_2q: original corrected benchmark aggregates verified",
+    "Frozen engineered protocol, 400 scores and saved predictions independently verified"
+  ],
+  "figures": "9 PNG and 9 SVG exports; engineered plots visually inspected",
+  "dependency_check": "pip check: no broken requirements found"
+}

@@ -1,0 +1,19 @@
+test_alignment_centers_imbalanced_labels (test_core.DiagnosticsTests.test_alignment_centers_imbalanced_labels) ... ok
+test_identity_and_diagonal_generalized_eigenvalue (test_core.DiagnosticsTests.test_identity_and_diagonal_generalized_eigenvalue) ... ok
+test_matches_direct_spectral_formula_and_ridge_monotonicity (test_core.DiagnosticsTests.test_matches_direct_spectral_formula_and_ridge_monotonicity) ... ok
+test_no_sqrt_n_ceiling (test_core.DiagnosticsTests.test_no_sqrt_n_ceiling) ... ok
+test_reject_invalid_and_singular (test_core.DiagnosticsTests.test_reject_invalid_and_singular) ... ok
+test_compute_uncompute_orientation_against_exact (test_core.PipelineTests.test_compute_uncompute_orientation_against_exact) ... ok
+test_fidelity_psd_and_diagonal (test_core.PipelineTests.test_fidelity_psd_and_diagonal) ... ok
+test_split_disjoint_deterministic_and_train_only_preprocessing (test_core.PipelineTests.test_split_disjoint_deterministic_and_train_only_preprocessing) ... ok
+test_square_cross_kernel_is_not_symmetrized (test_core.PipelineTests.test_square_cross_kernel_is_not_symmetrized) ... ok
+test_direct_and_precomputed_rbf_are_equivalent (test_engineered.EngineeredTests.test_direct_and_precomputed_rbf_are_equivalent) ... ok
+test_distinct_streams_and_prefix_learning_curve (test_engineered.EngineeredTests.test_distinct_streams_and_prefix_learning_curve) ... ok
+test_local_features_match_reduced_density_matrices (test_engineered.EngineeredTests.test_local_features_match_reduced_density_matrices) ... ok
+test_projected_distance_matches_one_rdm_distance (test_engineered.EngineeredTests.test_projected_distance_matches_one_rdm_distance) ... ok
+test_teacher_and_fourier_features_are_fixed_functions (test_engineered.EngineeredTests.test_teacher_and_fourier_features_are_fixed_functions) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.832s
+
+OK

@@ -1,0 +1,10 @@
+n_train,comparator,runs,mean_delta,sd_delta,ci95_low,ci95_high,wins,ties,losses
+128,Classical raw-input selection,1,0.4375,,,,1,0,0
+128,Classical same-feature RBF,1,0.0,,,,0,1,0
+128,Classical same-feature logistic,1,-0.02734375,,,,0,0,1
+128,Fourier+pairwise SVM,1,0.37109375,,,,1,0,0
+128,Gradient boosting,1,0.4453125,,,,1,0,0
+128,MLP,1,0.40234375,,,,1,0,0
+128,Nonentangling projection RBF,1,0.3671875,,,,1,0,0
+128,RBF SVM,1,0.375,,,,1,0,0
+128,Random forest,1,0.4375,,,,1,0,0

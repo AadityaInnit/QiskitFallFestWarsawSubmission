@@ -1,0 +1,38 @@
+[
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  }
+]

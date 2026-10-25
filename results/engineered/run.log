@@ -1,0 +1,85 @@
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py", line 249, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py", line 318, in _count_physical_cores_darwin
+    return int(cpu_info)
+seed=1000 n=32: quantum=0.541; train-selected RBF SVM=0.502; elapsed=6.3s
+seed=1000 n=64: quantum=0.885; train-selected Random forest=0.512; elapsed=13.0s
+seed=1000 n=128: quantum=0.885; train-selected Fourier+pairwise SVM=0.518; elapsed=23.9s
+seed=1000 n=256: quantum=0.924; train-selected RBF SVM=0.506; elapsed=36.8s
+seed=1001 n=32: quantum=0.770; train-selected RBF SVM=0.490; elapsed=6.2s
+seed=1001 n=64: quantum=0.852; train-selected Fourier+pairwise SVM=0.502; elapsed=13.5s
+seed=1001 n=128: quantum=0.943; train-selected MLP=0.496; elapsed=23.0s
+seed=1001 n=256: quantum=0.979; train-selected RBF SVM=0.500; elapsed=35.2s
+seed=1002 n=32: quantum=0.793; train-selected RBF SVM=0.537; elapsed=5.8s
+seed=1002 n=64: quantum=0.824; train-selected Fourier+pairwise SVM=0.535; elapsed=12.0s
+seed=1002 n=128: quantum=0.885; train-selected RBF SVM=0.455; elapsed=21.7s
+seed=1002 n=256: quantum=0.938; train-selected Random forest=0.492; elapsed=33.7s
+seed=1003 n=32: quantum=0.826; train-selected RBF SVM=0.477; elapsed=5.1s
+seed=1003 n=64: quantum=0.787; train-selected RBF SVM=0.477; elapsed=11.7s
+seed=1003 n=128: quantum=0.938; train-selected RBF SVM=0.477; elapsed=20.5s
+seed=1003 n=256: quantum=0.945; train-selected RBF SVM=0.516; elapsed=31.7s
+seed=1004 n=32: quantum=0.752; train-selected RBF SVM=0.486; elapsed=5.5s
+seed=1004 n=64: quantum=0.863; train-selected RBF SVM=0.479; elapsed=11.1s
+seed=1004 n=128: quantum=0.902; train-selected Fourier+pairwise SVM=0.502; elapsed=20.6s
+seed=1004 n=256: quantum=0.947; train-selected MLP=0.504; elapsed=32.4s
+seed=1005 n=32: quantum=0.812; train-selected Fourier+pairwise SVM=0.447; elapsed=5.9s
+seed=1005 n=64: quantum=0.844; train-selected RBF SVM=0.467; elapsed=12.7s
+seed=1005 n=128: quantum=0.877; train-selected Fourier+pairwise SVM=0.473; elapsed=21.9s
+seed=1005 n=256: quantum=0.938; train-selected RBF SVM=0.533; elapsed=33.0s
+seed=1006 n=32: quantum=0.842; train-selected Random forest=0.510; elapsed=5.1s
+seed=1006 n=64: quantum=0.873; train-selected RBF SVM=0.480; elapsed=11.1s
+seed=1006 n=128: quantum=0.895; train-selected RBF SVM=0.477; elapsed=20.5s
+seed=1006 n=256: quantum=0.941; train-selected Fourier+pairwise SVM=0.549; elapsed=31.8s
+seed=1007 n=32: quantum=0.762; train-selected MLP=0.516; elapsed=5.3s
+seed=1007 n=64: quantum=0.865; train-selected Fourier+pairwise SVM=0.518; elapsed=12.0s
+seed=1007 n=128: quantum=0.938; train-selected RBF SVM=0.482; elapsed=29.2s
+seed=1007 n=256: quantum=0.951; train-selected Fourier+pairwise SVM=0.516; elapsed=41.7s
+seed=1008 n=32: quantum=0.785; train-selected MLP=0.463; elapsed=5.8s
+seed=1008 n=64: quantum=0.910; train-selected Gradient boosting=0.475; elapsed=12.7s
+seed=1008 n=128: quantum=0.912; train-selected RBF SVM=0.471; elapsed=22.5s
+seed=1008 n=256: quantum=0.941; train-selected RBF SVM=0.445; elapsed=36.5s
+seed=1009 n=32: quantum=0.703; train-selected MLP=0.479; elapsed=6.2s
+seed=1009 n=64: quantum=0.846; train-selected Random forest=0.525; elapsed=12.5s
+seed=1009 n=128: quantum=0.926; train-selected MLP=0.553; elapsed=22.6s
+seed=1009 n=256: quantum=0.965; train-selected Fourier+pairwise SVM=0.461; elapsed=36.0s
+ n_train                           model  runs  mean_acc   sd_acc  ci95_low  ci95_high
+      32   Classical raw-input selection    10  0.490625 0.026442  0.471709   0.509541
+      32      Classical same-feature RBF    10  0.758594 0.086199  0.696930   0.820257
+      32 Classical same-feature logistic    10  0.812891 0.039770  0.784441   0.841340
+      32            Fourier+pairwise SVM    10  0.486914 0.024239  0.469575   0.504253
+      32               Gradient boosting    10  0.504492 0.019336  0.490660   0.518324
+      32                             MLP    10  0.497656 0.018248  0.484603   0.510710
+      32    Nonentangling projection RBF    10  0.492578 0.023380  0.475853   0.509303
+      32        Projected quantum kernel    10  0.758594 0.086199  0.696930   0.820257
+      32                         RBF SVM    10  0.490625 0.024356  0.473202   0.508048
+      32                   Random forest    10  0.500586 0.032448  0.477374   0.523798
+      64   Classical raw-input selection    10  0.496875 0.024433  0.479397   0.514353
+      64      Classical same-feature RBF    10  0.854883 0.033679  0.830790   0.878975
+      64 Classical same-feature logistic    10  0.876953 0.047691  0.842837   0.911069
+      64            Fourier+pairwise SVM    10  0.494922 0.021733  0.479375   0.510469
+      64               Gradient boosting    10  0.503516 0.024023  0.486330   0.520701
+      64                             MLP    10  0.491992 0.024088  0.474761   0.509223
+      64    Nonentangling projection RBF    10  0.496680 0.022982  0.480239   0.513120
+      64        Projected quantum kernel    10  0.854883 0.033679  0.830790   0.878975
+      64                         RBF SVM    10  0.496484 0.024668  0.478838   0.514130
+      64                   Random forest    10  0.496484 0.029603  0.475307   0.517661
+     128   Classical raw-input selection    10  0.490234 0.028259  0.470019   0.510449
+     128      Classical same-feature RBF    10  0.909961 0.024816  0.892209   0.927713
+     128 Classical same-feature logistic    10  0.932813 0.021080  0.917733   0.947892
+     128            Fourier+pairwise SVM    10  0.502734 0.021538  0.487327   0.518141
+     128               Gradient boosting    10  0.508984 0.025369  0.490837   0.527132
+     128                             MLP    10  0.493164 0.029966  0.471728   0.514600
+     128    Nonentangling projection RBF    10  0.501758 0.026130  0.483065   0.520450
+     128        Projected quantum kernel    10  0.909961 0.024816  0.892209   0.927713
+     128                         RBF SVM    10  0.489648 0.023672  0.472714   0.506583
+     128                   Random forest    10  0.488477 0.023319  0.471795   0.505158
+     256   Classical raw-input selection    10  0.502148 0.030833  0.480092   0.524205
+     256      Classical same-feature RBF    10  0.946875 0.015318  0.935917   0.957833
+     256 Classical same-feature logistic    10  0.959961 0.010981  0.952105   0.967816
+     256            Fourier+pairwise SVM    10  0.504492 0.030731  0.482509   0.526476
+     256               Gradient boosting    10  0.508203 0.028465  0.487841   0.528566
+     256                             MLP    10  0.503906 0.022981  0.487467   0.520346
+     256    Nonentangling projection RBF    10  0.505273 0.016523  0.493454   0.517093
+     256        Projected quantum kernel    10  0.946875 0.015318  0.935917   0.957833
+     256                         RBF SVM    10  0.505469 0.027649  0.485690   0.525248
+     256                   Random forest    10  0.508398 0.025433  0.490205   0.526592

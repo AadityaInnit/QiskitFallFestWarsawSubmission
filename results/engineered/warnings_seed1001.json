@@ -1,0 +1,44 @@
+[
+  {
+    "n_train": 128,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "lbfgs failed to converge after 2000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=2000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  },
+  {
+    "n_train": 256,
+    "model": "MLP",
+    "category": "ConvergenceWarning",
+    "message": "Stochastic Optimizer: Maximum iterations (2000) reached and the optimization hasn't converged yet."
+  }
+]

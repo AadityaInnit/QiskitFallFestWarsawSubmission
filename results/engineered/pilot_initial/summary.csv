@@ -1,0 +1,11 @@
+n_train,model,runs,mean_acc,sd_acc,ci95_low,ci95_high
+128,Classical raw-input selection,1,0.4609375,,,
+128,Classical same-feature RBF,1,0.8984375,,,
+128,Classical same-feature logistic,1,0.92578125,,,
+128,Fourier+pairwise SVM,1,0.52734375,,,
+128,Gradient boosting,1,0.453125,,,
+128,MLP,1,0.49609375,,,
+128,Nonentangling projection RBF,1,0.53125,,,
+128,Projected quantum kernel,1,0.8984375,,,
+128,RBF SVM,1,0.5234375,,,
+128,Random forest,1,0.4609375,,,
